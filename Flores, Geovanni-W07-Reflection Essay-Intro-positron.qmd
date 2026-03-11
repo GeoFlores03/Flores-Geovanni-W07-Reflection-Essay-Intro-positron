@@ -1,0 +1,109 @@
+---
+title: "W07-Reflection Essay-Introduction to Positron"
+author: "Geovanni Flores"
+date: "March 10, 2026"
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    theme: cosmo
+    code-overflow: wrap
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+## Be familar with Positron
+
+::: callout-note
+### My Response
+
+Step 1:
+
+-   x \<- 123
+-   Example of using Positron Assistant
+
+```{r}
+set.seed(2026)
+library(tibble)
+library(ggplot2)
+
+students <- tibble(
+  student_id = sprintf("S%03d", 1:100),
+  score = round(pmin(pmax(rnorm(100, mean = 75, sd = 12), 0), 100))
+)
+
+hist_plot <- ggplot(students, aes(x = score)) +
+  geom_histogram(binwidth = 5, color = "white", fill = "#2c7fb8", boundary = 0) +
+  labs(title = "Distribution of Student Test Scores", x = "Score", y = "Count") +
+  theme_minimal()
+
+hist_plot
+```
+
+Step 2:
+
+-   I ran the Python demo and played around with the different features
+-   Followed the introductions and examples provided in the documnent to understand how to use Positron Effectively.
+:::
+
+## Positron compared to RStudio
+
+::: callout-note
+### My Response
+
+Positron offers several significant advantages over RStudio by combining the specialized data science features of RStudio with the modern infrastructure of VS Code. Codes like:
+
+-   Multilingual Support
+-   Advanced Data Explorer
+-   Context-Aware AI
+-   Enchanced Ploy Management
+-   Flexible easy to learn layout
+-   VS Code Foundation
+:::
+
+## How to Use AI
+
+::: callout-note
+### My Response
+
+1.  Inside Positron, you can leverage AI tools through several distinct interfaces and extensions designed specifically for data science workflows.
+
+-   The Positron Assistant was helpful with gaining knowledge about the different features and how to use them effectively.
+-   The Inline Code Suggestions allowed me to write code more efficiently by providing real-time suggestions based on the context of my work.
+-   The Databot Extension helped me explore and analyze data more interactively, while also being able to ask questions about the data and receive insights directly within the editor.
+
+2.  I have installed:
+
+-   Postiron Assistant: which had helped me follow task-focused work such as debugging code, writing documentation, and generating code snippets.
+-   Databot: benefited me with combining files and identifying trends in data that might otherwise take me hours to enter manually.
+:::
+
+## Github Copilot
+
+::: callout-note
+### My Response
+
+## GitHub Copilot Education Approval
+
+1\.
+
+Below is a screenshot showing that my GitHub Copilot Education account was approved.
+
+![](images/copilot-approval.png)
+
+2.  I found GitHub Copilot to be more help than distracting. Copilot suggests lines of code whcih can compelte functions or provide ideas for solving programming problems. It also makes it easier to wrtie R code and reduces the time I would spend looking for examples. Copilot can suggest usfeful functions to complete tasks like data analysis or visualization. It cna be distracting when suggestions appear when I am trying to think of problems of my own. Overall though I feel as GitHub Copilot is a very helpful tool that can improve my productivity and help me learn new coding techiniques.
+:::
+
+## GitHub Pages and URl
+
+::: callout-note
+### My Response
+
+Will be provided in the comment sections of the canvas submission.
+:::
